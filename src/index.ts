@@ -1,12 +1,13 @@
-interface Person {
-    firstName: string;
-    lastName: string;
+import { Template, TemplateOptions } from "../types/index";
+export default class CodeGenerator {
+
+    static version: string
+
+    constructor(options: TemplateOptions) {
+
+    }
+
+    generator(template: Template) {
+        return "get template name  " + template.name + " , language is " + template.language + " , will copy from :" + template.fromPath + "  to :" + template.toPath;
+    }
 }
-
-function greeter(person: Person) {
-    return "Hello, " + person.firstName + " " + person.lastName;
-}
-
-let user = { firstName: "Jane", lastName: "User" };
-
-export default greeter(user)
