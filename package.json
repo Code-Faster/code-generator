@@ -62,5 +62,7 @@
     "url": "https://github.com/Code-Faster/code-generator/issues"
   },
   "homepage": "https://github.com/Code-Faster/code-generator#readme",
-  "dependencies": {}
+  "dependencies": {
+    "conventional-changelog-cli": "^2.1.1"
+  }
 }

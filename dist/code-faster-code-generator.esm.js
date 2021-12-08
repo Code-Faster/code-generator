@@ -1,5 +1,5 @@
 /*!
-  * code-generator v0.0.3
+  * code-generator v0.0.4
   * (c) 2021 biqi li
   * @license Apache-2.0
   */
