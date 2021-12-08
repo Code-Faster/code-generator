@@ -1,6 +1,6 @@
 {
   "name": "code-faster-code-generator",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "code generator",
   "main": "dist/code-faster-code-generator.common.js",
   "module": "dist/code-faster-code-generator.esm.js",
