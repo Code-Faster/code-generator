@@ -38,7 +38,6 @@ export type TemplateOptions = {
 /**
  * 生成器
  */
-export interface Generator {
+export default interface TemplateGenerator {
     generator: (template: Template) => String;
 }
-export default Object
