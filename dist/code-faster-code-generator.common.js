@@ -1,5 +1,5 @@
 /*!
-  * code-generator v0.0.4
+  * code-generator v0.0.5
   * (c) 2021 biqi li
   * @license Apache-2.0
   */
@@ -28,7 +28,7 @@ function _createClass(Constructor, protoProps, staticProps) {
 }
 
 var CodeGenerator = /*#__PURE__*/function () {
-  function CodeGenerator(options) {
+  function CodeGenerator() {
     _classCallCheck(this, CodeGenerator);
   }
 
