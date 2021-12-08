@@ -1,10 +1,10 @@
 /**
  * 语言类型
  */
-enum LanguageType {
-    Java,
-    TypeScript,
-    JavaScript
+export enum LanguageType {
+    Java = "Java",
+    TypeScript = "TypeScript",
+    JavaScript = "JavaScript"
 }
 
 /**
