@@ -38,6 +38,8 @@ export type TemplateOptions = {
 /**
  * 生成器
  */
-export interface TemplateGenerator {
-    generator: (template: Template) => String;
+export declare class CodeGenerator {
+    constructor(options?: TemplateOptions)
+    static version: string
+    generator(template: Template): string
 }

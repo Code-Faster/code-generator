@@ -1,7 +1,7 @@
-import { generator } from '../../../src/index'
+import CodeGenerator from '../../../src/index'
 describe('CodeGenerator', () => {
     it('should work', () => {
-        const path = generator({
+        const path = new CodeGenerator().generator({
             name: '1',
             fromPath: '2',
             toPath: '3',
