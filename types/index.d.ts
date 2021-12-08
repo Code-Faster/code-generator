@@ -43,3 +43,5 @@ export declare class CodeGenerator {
     static version: string
     generator(template: Template): string
 }
+
+export default CodeGenerator
