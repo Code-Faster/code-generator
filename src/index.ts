@@ -1,5 +1,5 @@
-import { Template, TemplateOptions } from "../types/index";
-export default class CodeGenerator {
+import { Template, TemplateOptions, Generator } from "../types/index";
+export default class CodeGenerator implements Generator {
 
     static version: string
 

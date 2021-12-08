@@ -35,4 +35,10 @@ export interface BlockTemplate extends Template {
 export type TemplateOptions = {
 
 }
+/**
+ * 生成器
+ */
+export interface Generator {
+    generator: (template: Template) => String;
+}
 export default Object
