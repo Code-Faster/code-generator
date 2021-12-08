@@ -1,21 +1,12 @@
 /**
- * 语言类型
- */
-export enum LanguageType {
-    Java = "Java",
-    TypeScript = "TypeScript",
-    JavaScript = "JavaScript"
-}
-
-/**
  * 模版
  */
-export interface Template {
+ export interface Template {
     // 模版名称
     name: string;
     fromPath: string;
     toPath: string;
-    language: LanguageType;
+    language: "Java" | "TypeScript" | "JavaScript";
 }
 /**
  * 项目模版
